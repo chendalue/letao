@@ -17,7 +17,7 @@ var app = express();
 app.use(session({
     secret: 'itcast-secret',
     name: 'itcast-name',
-    cookie: {maxAge: 8000000000},
+    cookie: {maxAge: 8000000000},  
     resave: false,
     saveUninitialized: true
 }));
